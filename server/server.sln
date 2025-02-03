@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonApi", "JsonApi\JsonApi.csproj", "{3BEF0C4D-B750-523C-7207-B143FDD8CA6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BEF0C4D-B750-523C-7207-B143FDD8CA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEF0C4D-B750-523C-7207-B143FDD8CA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEF0C4D-B750-523C-7207-B143FDD8CA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEF0C4D-B750-523C-7207-B143FDD8CA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9510B3A9-4FF4-49E1-AE50-F5AC4C83AC3C}
+	EndGlobalSection
+EndGlobal

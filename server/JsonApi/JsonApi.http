@@ -1,0 +1,17 @@
+@JsonApi_HostAddress = http://localhost:5032
+
+GET {{JsonApi_HostAddress}}/api/users
+
+###
+POST {{JsonApi_HostAddress}}/api/users
+Content-Type: application/json
+
+{
+  {
+    "ime": "Bob",
+    "starost": 20
+  },
+}
+
+###
+DELETE {{JsonApi_HostAddress}}/api/users/4

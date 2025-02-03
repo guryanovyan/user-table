@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seznam</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1 class="page-header">Seznam uporabnikov</h1>
+
+  <div class="main-container">
+    <table class="user-table">
+      <thead>
+        <tr>
+          <th class="user-table-id">Id</th>
+          <th>Ime</th>
+          <th>Starost</th>
+        </tr>
+      </thead>
+      <tbody class="js-user-table-body">
+      </tbody>
+    </table>
+
+    <div class="main-container-footer">
+      <span>
+        Število uporabnikov na strežniku: <span class="js-user-count">0</span>
+      </span>
+      <button class="add-user-btn js-add-user-btn">
+        Dodati uporabnika
+      </button>
+    </div>
+  </div>
+
+  <div name="form" class="form js-form">
+    <div class="form-content">
+      <span>Dodati uporabnika</span>
+      <input type="text" class="form-input js-form-input-name" placeholder="Ime">
+      <input type="number" min="1" class="form-input js-form-input-age" placeholder="Starost">
+      <div class="form-btns">
+        <button class="form-btn form-add-locally-btn js-add-locally-btn">Lokalno</button>
+        <button class="form-btn form-add-on-server-btn js-add-on-server-btn">Na strežnik</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
